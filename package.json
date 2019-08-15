@@ -1,0 +1,23 @@
+{
+  "name": "simple-blog-rest-API",
+  "version": "1.0.0",
+  "description": "just a simple blog",
+  "main": "dist/index.js",
+  "repository": "https://github.com/isasetiawan/wlb-be-test.git",
+  "author": "isasetiawan <azaqokay@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-graphql": "^0.8.0",
+    "koa-mount": "^4.0.0",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^5.10.1",
+    "sequelize-typescript": "^1.0.0-beta.3",
+    "type-graphql": "^0.17.4"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.2",
+    "typescript": "^3.5.3"
+  }
+}
